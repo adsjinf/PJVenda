@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: mysql_adsvenda
+    environment:
+      MYSQL_ROOT_PASSWORD: ual123
+      MYSQL_DATABASE: adsvenda
+    ports:
+      - "3306:3306"
+    volumes:
+      - H:/PROJETOS_EAD/JAVA/PJVenda/dados:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_container
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: ual123
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+volumes:
+  db_data:
