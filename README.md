@@ -1,4 +1,4 @@
-## Formação Java Web Full-Stack e Spring Boot REST API
+## Criando projeto de venda em JAVAFX
 <div style="sisplay: inline_block">
     <img align="center" alt="MySql" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
     <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -13,5 +13,7 @@
 </div><br/>
 
 <h5>
-Repositório de exercício da Formação Java Web Full-Stack e Spring Boot REST API
+Repositório de exercício de projeto de sistema de venda com JAVAFX</br>
+Link</br>
+https://www.youtube.com/watch?v=UiKZF9XyREA&list=PLf8iaa5odBIq6JB_QeWajzTbZiGeDN3wa
 </h5>
